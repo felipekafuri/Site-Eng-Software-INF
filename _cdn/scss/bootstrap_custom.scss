@@ -8,4 +8,8 @@ $theme-colors: (
   "SPG": $color-sargento
 );
 
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

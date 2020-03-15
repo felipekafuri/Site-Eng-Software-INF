@@ -1,3 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
+.sobre_curso {
+  border: solid 2px #a0dde6;
+  box-shadow: 0px 0px 10px #2a2d34;
+  border-radius: 5px;
+}
+.sobre_curso .ES_header {
+  font-size: 30px;
+  border-bottom: solid 1px #2a2d34;
+}
 
+.conteudo_curso_extra h3 {
+  font-size: 15px;
+}
+.conteudo_curso_extra span {
+  font-weight: bold;
+}
+.conteudo_curso_extra ul > li {
+  list-style: none;
+}
+.conteudo_curso_extra li a {
+  text-decoration: none;
+}
+.conteudo_curso_extra li a:hover {
+  cursor: pointer;
+}
+
+#btnScrollTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #214c70;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#btnScrollTop:active {
+  background-color: #1b3f5c;
+}
+
+.footer-content {
+  margin-top: 100px;
+  box-shadow: 0px 0px 10px #000000;
+}
+.footer-content .imagem {
+  width: 45px;
+  height: 45px;
+}
+.footer-content .imagem:hover {
+  width: 50px;
+  height: 50px;
+}
 
 /*# sourceMappingURL=Home.css.map */
