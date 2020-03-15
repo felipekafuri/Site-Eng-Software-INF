@@ -1,3 +1,11 @@
 @import "variables";
 
+$theme-colors: (
+  "WB": $color-felipe,
+  "DB": $color-igor,
+  "GC": $color-rafa,
+  "WG": $color-pedro,
+  "SPG": $color-sargento
+);
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
