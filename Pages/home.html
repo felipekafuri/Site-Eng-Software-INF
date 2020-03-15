@@ -5,17 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../_cdn/css/bootstrap_custom.css" />
     <link rel="stylesheet" href="../_cdn/css/Home.css" />
-    <title>Engenharia de Software</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Engenharia de Software | Instituto de Informática - UFG</title>
+    <script>
+      $(document).ready(function(){
+        $(".out").click(function(){
+          if($("nav").is(":visible")){
+            $("nav").hide();
+            $('.out').show()
+            $('#intro').css({'margin-top':'200px'});
+    } else{
+            $("nav").show();
+            $('.out').hide()
+            $('#intro').css({'margin-top':'450px'});
+    }
+  });
+      $(".in").click(function(){
+        if($("nav").is(":visible")){
+          $("nav").hide();
+          $('.out').show()
+          $('#intro').css({'margin-top':'200px'});
+    }   else{
+          $("nav").show();
+          $('.out').hide()
+          $('#intro').css({'margin-top':'420px'});
+    }
+  });
+});
+    </script>
   </head>
   <body>
     <main>
       <section class="sobre_curso">
         <div class="container">
           <div class="row bg-front">
-            <header>
-              <h1>Engenharia de Software INF/UFG</h1>
-              <div class="divisoria"></div>
-            </header>
+              <header id='header'>
+                <a class='logo' href='#home'>
+                <img src='http://inteligenciaartificial.inf.ufg.br/images/marcainfhorizontal.png' alt='logo' id='header-img' class='img-size'>
+                </a>
+                <nav id='nav-bar'>
+                  <ul>
+                  <li><a href='#home' class='nav-link'>Home</a></li>
+                  <li><a href='#o-curso' class='nav-link'>O Curso</a></li>
+                    <li><a href='#curriculo' class='nav-link'>Curriculo</a></li>
+                    <li><a href='#horarios' class='nav-link'>Horarios</a></li>
+                  </ul>
+                  <button class='in'><i class="fa fa-bars"></i></button>
+                </nav>
+                <button class='out'><i class="fa fa-bars"></i></button>
+              </header>
+              <section id='intro'>
+                <div>
+                  <h1>Bacharelado em engenharia de software</h1></div>
+                <p>Este curso forma o profissional que usa computadores, por meio da construção de software, para satisfazer necessidades de empresas e pessoas. Se o software exigido for grande e complexo, então este é um problema para o egresso deste curso.</p>
+                <button class="btn btn-outline-primary"><a href='#o-curso'>SAIBA MAIS</a></button>
+              </section>
           </div>
         </div>
       </section>
