@@ -2,10 +2,23 @@
 @import url("_variables.scss");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
 @import url("_variables.scss");
+.bg-curriculo {
+  background: url(../img/bgCurriculo.jfif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 3em;
+  padding-top: 1em;
+  margin-top: -50px;
+}
+
 .shadow {
   box-shadow: 0px 0px 10px #2a2d34;
-  border-radius: 5px;
-  border: solid 2px #a0dde6;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 2em;
+  /*border: solid 2px #a0dde6;*/
 }
 
 .curriculo-container {
@@ -36,13 +49,11 @@
   border-top-width: 0.2em;
 }
 
-.footer-content {
-  margin-top: 100px;
-  box-shadow: 0px 0px 10px #000000;
-}
 .footer-content .imagem a {
   text-decoration: none;
-  color: black;
+  color: white;
+  margin-left: -55px;
+  margin-right: -55px;
 }
 
 .main_header .header_bar h1 {
@@ -65,10 +76,20 @@
   height: 100%;
 }
 
+#SobreCurso {
+  background: url(../img/bgCurriculo.jfif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
 .sobre_curso {
-  border: solid 2px #a0dde6;
   box-shadow: 0px 0px 10px #2a2d34;
-  border-radius: 5px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .sobre_curso .ES_header {
   font-size: 30px;
@@ -111,6 +132,16 @@
   background-color: #1b3f5c;
 }
 
+.youtube {
+  background: url(../img/bgCurriculo.jfif);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 3em;
+  padding-top: 3em;
+}
+
 .yt-textos {
   display: flex;
   flex-direction: column;
@@ -149,8 +180,9 @@ iframe {
 .geral {
   align-items: center;
   box-shadow: 0px 0px 10px black;
-  border-radius: 5px;
+  border-radius: 7px;
   border-bottom: none;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .geral2 {
@@ -184,8 +216,8 @@ iframe {
 }
 
 .o_curso {
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   background: url(../img/bgCurso.png) no-repeat;
   /*background-attachment: fixed;*/
   background-size: cover;
@@ -232,6 +264,60 @@ iframe {
 .card-pers > div > div > p {
   font-size: 1em;
   color: white;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/bg-capa.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 100px;
+}
+.masthead h1 {
+  color: white;
+}
+
+.masthead > div > b {
+  color: white;
+}
+
+.titulo-animacao {
+  font-size: 0.3em;
+}
+
+.subtitulo-animacao {
+  font-size: 0.5em;
+  text-transform: capitalize;
+  margin-top: -0.5em;
+}
+
+#capa-sobre {
+  color: white;
+  width: 25em;
+  margin-top: -30px;
+}
+
+.logo-inf {
+  background: url("../img/logo-inf-com-escrita.png");
+  background-repeat: no-repeat;
+  height: 4em;
+  display: block;
+  color: transparent;
+  background-size: contain;
+}
+
+.logo-inf:hover {
+  color: transparent;
+}
+
+.btn-pers {
+  background-color: #004799;
 }
 
 /*# sourceMappingURL=Home.css.map */
