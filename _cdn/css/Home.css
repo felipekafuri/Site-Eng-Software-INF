@@ -184,7 +184,9 @@ iframe {
 }
 
 .o_curso {
-  background: url(../../img/bgCurso.png) no-repeat;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background: url(../img/bgCurso.png) no-repeat;
   /*background-attachment: fixed;*/
   background-size: cover;
   padding-top: 3em;
