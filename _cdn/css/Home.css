@@ -1,80 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap");
-.youtube {
-  margin-top: 30px;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "./theme/header";
+ *   |         ^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\home.scss 1:9  root stylesheet */
 
-.yt-textos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 20px;
-  text-align: center;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"./theme/header\";\d\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\home.scss 1:9  root stylesheet";
 }
-
-.videos {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-}
-
-.textos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto;
-}
-
-.video {
-  width: 560px;
-  height: 315px;
-  padding-bottom: 20px;
-}
-
-iframe {
-  width: 100%;
-  height: 100%;
-}
-
-.geral {
-  align-items: center;
-  box-shadow: 0px 0px 10px black;
-  border-radius: 5px;
-  border-bottom: none;
-}
-
-.geral2 {
-  box-shadow: 0px 0px 10px black;
-  border-radius: 5px;
-  border-top: none;
-}
-
-.rep_all {
-  display: flex;
-}
-
-.rep {
-  /*height: 300px;*/
-  padding: 10px;
-  /*margin: 10px;*/
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 35px;
-}
-
-.imgdiv {
-  border: 1px solid black;
-  border-radius: 30px;
-  padding: 20px;
-  display: flex;
-}
-
-.imgdiv img {
-  display: flex;
-}
-
-/*# sourceMappingURL=Home.css.map */
