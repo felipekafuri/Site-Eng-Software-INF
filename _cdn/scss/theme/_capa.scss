@@ -1,45 +1,40 @@
 .masthead {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: url('../img/bg-capa.jfif');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    padding-top: 100px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/bg-capa.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 100px;
 
-    h1 {
-        color: white;
-    }
+  h1 {
+    color: white;
+  }
+  .para_animation {
+    font-size: 25px;
+  }
 }
 
 .masthead > div > b {
-    color: white;
+  color: white;
 }
 
 .titulo-animacao {
-    color: rebeccapurple;
-    font-size: 0.5em;
+  font-size: 0.5em;
 }
 
 .subtitulo-animacao {
-    font-size: 0.6em;
-    text-transform: capitalize;
-    margin-top: -0.5em;
+  font-size: 0.6em;
+  text-transform: capitalize;
+  margin-top: -0.5em;
 }
 
 #capa-sobre {
-    color: white;
-    width: 25em;
-    margin-top: -30px;
-}
-
-/* sm > 768px */
-@media (min-width: 767px) {
-    .titulo-animacao {
-        color: red;
-    }
+  color: white;
+  width: 25em;
+  margin-top: -30px;
 }
