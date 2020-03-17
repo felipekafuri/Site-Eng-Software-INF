@@ -8,3 +8,7 @@
 @import "./theme/navbar";
 @import "./fonts";
 @import "./variables";
+
+body {
+  overflow-x: hidden;
+}
