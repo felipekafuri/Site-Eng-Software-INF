@@ -1,12 +1,13 @@
 .footer-content {
-    
-
-    .imagem {
-        a {
-            text-decoration: none;
-            color: white;
-            margin-left: -55px;
-            margin-right: -55px;
-        }
+  .imagem {
+    a {
+      text-decoration: none;
+      color: white;
+      margin-left: -55px;
+      margin-right: -55px;
     }
+    a:hover {
+      color: #30c5ff;
+    }
+  }
 }
