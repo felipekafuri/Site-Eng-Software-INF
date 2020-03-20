@@ -176,6 +176,16 @@
   border-radius: 7px;
   background-color: rgba(255, 255, 255, 0.8);
 }
+.news .card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+.news iframe:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
 
 .video {
   width: 560px;
@@ -290,6 +300,35 @@ body {
 
 .logo-inf:hover {
   color: transparent;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.from-left {
+  grid-column: 2/3;
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 2/3;
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: transform 500ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
 }
 
 /*# sourceMappingURL=Home.css.map */

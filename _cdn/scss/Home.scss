@@ -9,3 +9,33 @@
 @import "./theme/navbar";
 @import "./fonts";
 @import "./variables";
+
+//=========== fade in animation ==============
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
+.from-left {
+  grid-column: 2 / 3;
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 2 / 3;
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: transform 500ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+}
