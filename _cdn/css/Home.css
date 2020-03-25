@@ -129,6 +129,91 @@
   background-color: #1b3f5c;
 }
 
+.conquistas .img_header_conq {
+  background-color: #2cb5eb;
+  border-radius: 7px 7px 0px 0px;
+  box-shadow: 0px 10px 10px #2cb5eb;
+}
+.conquistas .img_conquistas_header {
+  background-color: #34bdf3;
+  box-shadow: 0px 0px 10px #2a2d34;
+  border-radius: 7px;
+}
+.conquistas .img_conquistas_header img {
+  width: 160px;
+  height: 100px;
+}
+
+.conquistas .conquista_header header h1 {
+  font-size: 3.5em;
+  font-weight: 400;
+}
+.conquistas .conquista_header header p {
+  font-size: 1.3em;
+}
+
+.avaliacoes header {
+  text-align: center;
+}
+.avaliacoes header h3 {
+  color: white;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+.avaliacoes .img_mec {
+  margin-top: 20px;
+  align-items: center;
+}
+.avaliacoes .img_mec img {
+  width: 70%;
+  height: 70%;
+}
+
+.ranking header {
+  text-align: center;
+}
+.ranking header h3 {
+  color: white;
+  font-size: 1.7em;
+  font-weight: 400;
+}
+.ranking ol li {
+  color: white;
+  font-size: 1.2em;
+}
+.ranking ol li a {
+  color: white;
+  text-decoration: none;
+}
+.ranking ol li a:hover {
+  font-size: 1.3em;
+}
+.ranking p {
+  padding-top: 50px;
+  text-align: center;
+}
+.ranking p a {
+  text-decoration: none;
+  color: #ffc400;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.ranking p a:hover {
+  color: #daa703;
+}
+
+@media (max-width: 400px) {
+  .conquistas .img_conquistas_header img {
+    width: 70px;
+    height: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .avaliacoes .img_mec img {
+    width: 80%;
+    height: 80%;
+  }
+}
 .youtube {
   padding-bottom: 3em;
   padding-top: 3em;
@@ -304,7 +389,7 @@ body {
 
 .fade-in {
   opacity: 0;
-  transition: opacity 400ms ease-in;
+  transition: opacity 500ms ease-in;
 }
 
 .fade-in.appear {
@@ -323,12 +408,23 @@ body {
 
 .from-left,
 .from-right {
-  transition: transform 500ms ease-in;
+  transition: transform 600ms ease-in;
 }
 
 .from-left.appear,
 .from-right.appear {
   transform: translateX(0);
+}
+
+body {
+  background-color: #cccc;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 /*# sourceMappingURL=Home.css.map */

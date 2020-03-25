@@ -39,3 +39,14 @@
 .from-right.appear {
   transform: translateX(0);
 }
+
+body {
+  background-color: #cccc;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
