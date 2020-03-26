@@ -1,35 +1,39 @@
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
-.details .content + .content {
+.perfil-profissional .content + .content {
     margin-top: 100px;
 }
 
-.details .content h3 {
+.perfil-profissional .content h3 {
     font-weight: 700;
     font-size: 32px;
     color: #47536e;
 }
 
-.details .content ul {
+.perfil-profissional .content ul {
     list-style: none;
     padding: 0;
 }
 
-.details .content ul li {
+.perfil-profissional .content ul li {
     padding-bottom: 10px;
 }
 
-.details .content ul i {
+.perfil-profissional .content ul i {
     font-size: 20px;
     padding-right: 4px;
     color: #5777ba;
 }
 
-.details .content p:last-child {
+.perfil-profissional .content p:last-child {
     margin-bottom: 0;
 }
 
-.details {
+.perfil-profissional {
     padding-top: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
 }

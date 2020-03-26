@@ -75,6 +75,9 @@
   padding-top: 1em;
 }
 
+.sobre_curso {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 .sobre_curso .ES_header {
   font-size: 30px;
   border-bottom: solid 1px #2a2d34;
@@ -123,7 +126,6 @@
 }
 .conquistas .img_conquistas_header {
   background-color: #34bdf3;
-  box-shadow: 0px 0px 10px #2a2d34;
   border-radius: 7px;
 }
 .conquistas .img_conquistas_header img {
@@ -332,7 +334,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   border-radius: 50%;
   background-color: #214c70;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   color: #ffffff;
   border: none;
   outline: none;
@@ -344,6 +345,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #1b3f5c;
 }
 
+.news {
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
 .news .card:hover {
   -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
@@ -364,37 +369,41 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Details
 --------------------------------------------------------------*/
-.details .content + .content {
+.perfil-profissional .content + .content {
   margin-top: 100px;
 }
 
-.details .content h3 {
+.perfil-profissional .content h3 {
   font-weight: 700;
   font-size: 32px;
   color: #47536e;
 }
 
-.details .content ul {
+.perfil-profissional .content ul {
   list-style: none;
   padding: 0;
 }
 
-.details .content ul li {
+.perfil-profissional .content ul li {
   padding-bottom: 10px;
 }
 
-.details .content ul i {
+.perfil-profissional .content ul i {
   font-size: 20px;
   padding-right: 4px;
   color: #5777ba;
 }
 
-.details .content p:last-child {
+.perfil-profissional .content p:last-child {
   margin-bottom: 0;
 }
 
-.details {
+.perfil-profissional {
   padding-top: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
 }
 
 .o_curso {
