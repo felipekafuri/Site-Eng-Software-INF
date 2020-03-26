@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.details .content + .content {
+    margin-top: 100px;
+}
+
+.details .content h3 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #47536e;
+}
+
+.details .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details .content ul li {
+    padding-bottom: 10px;
+}
+
+.details .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #5777ba;
+}
+
+.details .content p:last-child {
+    margin-bottom: 0;
+}
+
+.details {
+    padding-top: 60px;
+}

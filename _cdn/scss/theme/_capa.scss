@@ -14,20 +14,23 @@
     margin-top: -30px;
 }
 
+.img-capa{
+    height: 400px; 
+}
+
 .capa {
     position: relative;
     width: 100%;
     height: auto;
     min-height: 35rem;
-    padding: 15rem 0;
-    background: url("../img/bg_capa.jpg");
+    
+    background-color: #007BFF;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     padding-top: 100px;
-    margin-top: 80px;
+    margin-top: 30px;
     background-position: center;
     color: white;
-    
 }
