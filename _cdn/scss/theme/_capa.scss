@@ -1,33 +1,32 @@
 .titulo-animacao {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
 .subtitulo-animacao {
-    font-size: 0.65em;
-    text-transform: capitalize;
-    margin-top: -0.5em;
+  font-size: 0.65em;
+  text-transform: capitalize;
+  margin-top: -0.5em;
 }
 
 #capa-sobre {
-    color: white;
-    width: 25em;
-    margin-top: -30px;
+  color: white;
+  width: 25em;
+  margin-top: -30px;
 }
 
 .capa {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    background: url("../img/bg_capa.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    padding-top: 100px;
-    margin-top: 80px;
-    background-position: center;
-    color: white;
-    
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("../img/bg_capa.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-top: 100px;
+  margin-top: 80px;
+  background-position: center;
+  color: white;
 }

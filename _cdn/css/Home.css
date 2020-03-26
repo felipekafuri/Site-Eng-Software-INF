@@ -83,11 +83,6 @@
   padding-top: 1em;
 }
 
-.sobre_curso {
-  box-shadow: 0px 0px 10px #2a2d34;
-  border-radius: 7px;
-  background-color: rgba(255, 255, 255, 0.8);
-}
 .sobre_curso .ES_header {
   font-size: 30px;
   border-bottom: solid 1px #2a2d34;
@@ -256,11 +251,6 @@
   background-color: #1b3f5c;
 }
 
-.news {
-  box-shadow: 0px 0px 10px #2a2d34;
-  border-radius: 7px;
-  background-color: rgba(255, 255, 255, 0.8);
-}
 .news .card:hover {
   -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
