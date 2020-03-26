@@ -204,6 +204,131 @@
   }
 }
 /*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.ferramentas .content + .content {
+  margin-top: 100px;
+}
+
+.ferramentas .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #47536e;
+}
+
+.ferramentas .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ferramentas .content ul li {
+  padding-bottom: 10px;
+}
+
+.ferramentas .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5777ba;
+}
+
+.ferramentas .content p:last-child {
+  margin-bottom: 0;
+}
+
+.ferramentas {
+  padding-top: 0px;
+  padding-bottom: 90px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.estagio .content + .content {
+  margin-top: 100px;
+}
+
+.estagio .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #47536e;
+}
+
+.estagio .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.estagio .content ul li {
+  padding-bottom: 10px;
+}
+
+.estagio .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5777ba;
+}
+
+.estagio .content p:last-child {
+  margin-bottom: 0;
+}
+
+.estagio {
+  padding-bottom: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.objetivos .content + .content {
+  margin-top: 100px;
+}
+
+.objetivos .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #47536e;
+}
+
+.objetivos .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.objetivos .content ul li {
+  padding-bottom: 10px;
+}
+
+.objetivos .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5777ba;
+}
+
+.objetivos .content p:last-child {
+  margin-bottom: 0;
+}
+
+.objetivos {
+  padding-bottom: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+h5 {
+  color: #47536e;
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
