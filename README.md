@@ -18,3 +18,4 @@ Pré-configurações:
 - sass scss:css --watch (esse comando faz com que todas as alterações no sass sejam salvas e automaticamente mandadas para o .css)
 
 Colaboradores: Felipe Kafuri, Pedro Araújo, Rafael Augusto, Igor Araújo.
+Orientação: Profa. Dra. Renata Dutra Braga
