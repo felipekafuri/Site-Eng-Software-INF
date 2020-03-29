@@ -68,6 +68,37 @@ newyt.addEventListener("click", function(e) {
   );
 });
 
+const home = document.getElementById("home");
+
+home.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+//TEXT WRITING ANIMATION
+const titulo = document.querySelector("#titulo");
+const para = document.querySelector("#paraTitulo");
+
+function typeWriter(elemento) {
+  const textoArray = elemento.innerHTML.split("");
+  elemento.innerHTML = "";
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => {
+      elemento.innerHTML += letra;
+    }, 75 * i);
+  });
+}
+
+typeWriter(titulo);
+
 //video animation
 $(document).ready(function() {
   $(".video").hover(
