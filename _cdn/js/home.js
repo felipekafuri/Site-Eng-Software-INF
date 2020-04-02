@@ -38,21 +38,6 @@ hor.addEventListener("click", function(e) {
   );
 });
 
-const curs = document.getElementById("curs");
-
-curs.addEventListener("click", function(e) {
-  e.preventDefault();
-  const id = $(this).attr("href");
-  targetOffset = $(id).offset().top;
-
-  $("html, body").animate(
-    {
-      scrollTop: targetOffset
-    },
-    700
-  );
-});
-
 const newyt = document.getElementById("newyt");
 
 newyt.addEventListener("click", function(e) {
@@ -71,6 +56,90 @@ newyt.addEventListener("click", function(e) {
 const home = document.getElementById("home");
 
 home.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+const dadosCurso = document.getElementById("dadosCurso");
+dadosCurso.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+const objetivo = document.getElementById("objetivo");
+objetivo.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+const perfilPro = document.getElementById("perfilPro");
+perfilPro.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+const matrizCur = document.getElementById("matrizCur");
+matrizCur.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+const mapaFer = document.getElementById("mapaFer");
+mapaFer.addEventListener("click", function(e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    700
+  );
+});
+
+const estagio = document.getElementById("estagio");
+estagio.addEventListener("click", function(e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
