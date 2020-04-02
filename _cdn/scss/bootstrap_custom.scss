@@ -1,14 +1,16 @@
 @import "variables";
 
-$theme-colors: ("WB": $color-felipe,
-    "DB": $color-igor,
-    "GC": $color-rafa,
-    "WG": $color-pedro,
-    "SPG": $color-sargento,
-    "azul-inf": $azul-inf);
+$theme-colors: (
+  "WB": $color-felipe,
+  "DB": $color-igor,
+  "GC": $color-rafa,
+  "WG": $color-pedro,
+  "SPG": $color-sargento,
+  "azul-inf": $azul-inf
+);
 
 * {
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
