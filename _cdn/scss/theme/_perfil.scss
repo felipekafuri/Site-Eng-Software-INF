@@ -2,38 +2,43 @@
 # Details
 --------------------------------------------------------------*/
 .perfil-profissional .content + .content {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .perfil-profissional .content h3 {
-    font-weight: 700;
-    font-size: 32px;
-    color: #47536e;
+  font-weight: 700;
+  font-size: 32px;
+  color: #47536e;
 }
 
 .perfil-profissional .content ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .perfil-profissional .content ul li {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .perfil-profissional .content ul i {
-    font-size: 20px;
-    padding-right: 4px;
-    color: #5777ba;
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5777ba;
 }
 
 .perfil-profissional .content p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .perfil-profissional {
-    padding-top: 60px;
+  padding-top: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }

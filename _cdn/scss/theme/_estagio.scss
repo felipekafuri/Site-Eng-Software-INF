@@ -2,38 +2,43 @@
 # Details
 --------------------------------------------------------------*/
 .estagio .content + .content {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .estagio .content h3 {
-    font-weight: 700;
-    font-size: 32px;
-    color: #47536e;
+  font-weight: 700;
+  font-size: 32px;
+  color: #47536e;
 }
 
 .estagio .content ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .estagio .content ul li {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .estagio .content ul i {
-    font-size: 20px;
-    padding-right: 4px;
-    color: #5777ba;
+  font-size: 20px;
+  padding-right: 4px;
+  color: #5777ba;
 }
 
 .estagio .content p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .estagio {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
