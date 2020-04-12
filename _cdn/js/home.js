@@ -1,38 +1,23 @@
 const btnScrollTop = document.querySelector("#btnScrollTop");
 
-btnScrollTop.addEventListener("click", function(e) {
+btnScrollTop.addEventListener("click", function (e) {
   window.scrollTo({
     top: 0,
     left: 0,
-    behavior: "smooth"
+    behavior: "smooth",
   });
-});
-
-const cur = document.getElementById("cur");
-
-cur.addEventListener("click", function(e) {
-  e.preventDefault();
-  const id = $(this).attr("href");
-  targetOffset = $(id).offset().top;
-
-  $("html, body").animate(
-    {
-      scrollTop: targetOffset
-    },
-    700
-  );
 });
 
 const hor = document.getElementById("hor");
 
-hor.addEventListener("click", function(e) {
+hor.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
@@ -40,14 +25,14 @@ hor.addEventListener("click", function(e) {
 
 const newyt = document.getElementById("newyt");
 
-newyt.addEventListener("click", function(e) {
+newyt.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
@@ -55,98 +40,113 @@ newyt.addEventListener("click", function(e) {
 
 const home = document.getElementById("home");
 
-home.addEventListener("click", function(e) {
+home.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
+    },
+    700
+  );
+});
+
+const dicasEss = document.getElementById("dicasEs");
+
+dicasEss.addEventListener("click", function (e) {
+  e.preventDefault();
+  const id = $(this).attr("href");
+  targetOffset = $(id).offset().top;
+
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset,
     },
     700
   );
 });
 
 const dadosCurso = document.getElementById("dadosCurso");
-dadosCurso.addEventListener("click", function(e) {
+dadosCurso.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
 });
 
 const objetivo = document.getElementById("objetivo");
-objetivo.addEventListener("click", function(e) {
+objetivo.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
 });
 
 const perfilPro = document.getElementById("perfilPro");
-perfilPro.addEventListener("click", function(e) {
+perfilPro.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
 });
 
 const matrizCur = document.getElementById("matrizCur");
-matrizCur.addEventListener("click", function(e) {
+matrizCur.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
 });
 
 const mapaFer = document.getElementById("mapaFer");
-mapaFer.addEventListener("click", function(e) {
+mapaFer.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
 });
 
 const estagio = document.getElementById("estagio");
-estagio.addEventListener("click", function(e) {
+estagio.addEventListener("click", function (e) {
   e.preventDefault();
   const id = $(this).attr("href");
   targetOffset = $(id).offset().top;
 
   $("html, body").animate(
     {
-      scrollTop: targetOffset
+      scrollTop: targetOffset,
     },
     700
   );
@@ -169,22 +169,22 @@ function typeWriter(elemento) {
 typeWriter(titulo);
 
 //video animation
-$(document).ready(function() {
+$(document).ready(function () {
   $(".video").hover(
     //primeiro parametro
-    function() {
+    function () {
       $(this).animate(
         {
-          marginTop: "-=1%"
+          marginTop: "-=1%",
         },
         200
       );
     },
     //segundo parametro
-    function() {
+    function () {
       $(this).animate(
         {
-          marginTop: "0%"
+          marginTop: "0%",
         },
         200
       );
@@ -193,22 +193,22 @@ $(document).ready(function() {
 });
 
 //video animation
-$(document).ready(function() {
+$(document).ready(function () {
   $(".cartao").hover(
     //primeiro parametro
-    function() {
+    function () {
       $(this).animate(
         {
-          marginTop: "-=1%"
+          marginTop: "-=1%",
         },
         200
       );
     },
     //segundo parametro
-    function() {
+    function () {
       $(this).animate(
         {
-          marginTop: "0%"
+          marginTop: "0%",
         },
         200
       );
@@ -220,13 +220,13 @@ $(document).ready(function() {
 const faders = document.querySelectorAll(".fade-in");
 const appearOptions = {
   threshold: 0,
-  rootMargin: "0px 0px -250px 0px"
+  rootMargin: "0px 0px -250px 0px",
 };
-const appearOnScroll = new IntersectionObserver(function(
+const appearOnScroll = new IntersectionObserver(function (
   entries,
   appearOnScroll
 ) {
-  entries.forEach(entry => {
+  entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       return;
     } else {
@@ -237,11 +237,11 @@ const appearOnScroll = new IntersectionObserver(function(
 },
 appearOptions);
 
-faders.forEach(fader => {
+faders.forEach((fader) => {
   appearOnScroll.observe(fader);
 });
 
 const sliders = document.querySelectorAll(".slide-in");
-sliders.forEach(slider => {
+sliders.forEach((slider) => {
   appearOnScroll.observe(slider);
 });
