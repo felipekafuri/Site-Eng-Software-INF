@@ -60,12 +60,12 @@
 
 .conquistas {
   .img_header_conq {
-    background-color: #2cb5eb;
-    border-radius: 7px 7px 0px 0px;
-    box-shadow: 0px 10px 10px #2cb5eb;
+    background-color: #fff;
+    color: #0000;
   }
   .img_conquistas_header {
-    background-color: #34bdf3;
+    background-color: #fff;
+    color: #0000;
     border-radius: 7px;
     img {
       width: 160px;
@@ -75,13 +75,16 @@
 }
 
 .conquistas {
+  margin-top: 150px;
   .conquista_header {
     header {
       h1 {
+        color: #000000;
         font-size: 3.5em;
         font-weight: 400;
       }
       p {
+        color: #000000;
         font-size: 1.3em;
       }
     }
@@ -92,7 +95,7 @@
   header {
     text-align: center;
     h3 {
-      color: white;
+      color: #000000;
       font-size: 1.7em;
       font-weight: 400;
     }
@@ -111,17 +114,17 @@
   header {
     text-align: center;
     h3 {
-      color: white;
+      color: #000000;
       font-size: 1.7em;
       font-weight: 400;
     }
   }
   ol {
     li {
-      color: white;
+      color: #000000;
       font-size: 1.2em;
       a {
-        color: white;
+        color: #000000;
         text-decoration: none;
       }
       a:hover {
@@ -141,6 +144,14 @@
     a:hover {
       color: rgb(218, 167, 3);
     }
+  }
+}
+
+.dicasEstudo {
+  margin-bottom: 100px;
+
+  .swecom {
+    border: 1px solid rgb(197, 197, 197);
   }
 }
 
