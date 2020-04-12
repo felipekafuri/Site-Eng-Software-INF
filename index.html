@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./_cdn/css/bootstrap_custom.css" />
     <link rel="stylesheet" href="./_cdn/css/Home.css" />
 
-    <!--Folha de estilo Animação Letras gustavo lima-->
+    <!--Folha de estilo Animação Letras-->
     <!-- CSS reset Igor -->
     <link rel="stylesheet" href="./animated-headline-master/css/style.css" />
     <!-- Resource style Igor -->
     <!-- Fim folha de estilo Animação Letras-->
 
-    <script
-      src="https://kit.fontawesome.com/5a9d3c850d.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/5a9d3c850d.js" crossorigin="anonymous"></script>
 
     <!-- Icones-->
 
@@ -24,824 +22,751 @@
     <link href="./_cdn/vendor/venobox/venobox.css" rel="stylesheet" />
 
     <title>Engenharia de Software | Instituto de Informática - UFG</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <button id="btnScrollTop">
-      <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
     </button>
 
     <section id="navbar">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-inf">
-        <div class="container">
-          <a class="logo-inf" href="#">Engenharia de Software</a>
-          <button
-            class="btn navbar-toggler btn-dark"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto" style="text-transform: uppercase;">
-              <li class="nav-item active">
-                <a class="nav-link" id="home" href="#SobreCurso"
-                  >Home<span class="sr-only">(current)</span></a
-                >
-              </li>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-azul-inf">
+            <div class="container">
+                <a class="logo-inf" href="#">Engenharia de Software</a>
+                <button class="btn navbar-toggler btn-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto" style="text-transform: uppercase">
+                        <li class="nav-item active">
+                            <a class="nav-link" id="home" href="#SobreCurso">Home<span class="sr-only">(current)</span></a>
+                        </li>
 
-              <li class="nav-item">
-                <a class="nav-link" id="coord" href="#Coord"
-                  >Coordenação<span class="sr-only">(current)</span></a
-                >
-              </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="coord" href="#Coord">Coordenação<span class="sr-only">(current)</span></a>
+                        </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  O Curso
-                </a>
-                <div
-                  class="dropdown-menu bg-azul-inf"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <a class="dropdown-item" id="dadosCurso" href="#DadosCurso"
-                    >Dados do curso</a
-                  >
-                  <a class="dropdown-item" id="objetivo" href="#Objetivo"
-                    >Objetivo</a
-                  >
-                  <a class="dropdown-item" id="perfilPro" href="#PerfilPro"
-                    >Perfil profissional</a
-                  >
-                  <a class="dropdown-item" id="matrizCur" href="#MatrizCur"
-                    >Matriz curricular</a
-                  >
-                  <a class="dropdown-item" id="mapaFer" href="#MapaFer"
-                    >Mapa de ferramentas</a
-                  >
-                  <a class="dropdown-item" id="estagio" href="#Estagio"
-                    >Estágio não obrigatório</a
-                  >
-                  <div class="dropdown-divider"></div>
-                  <a
-                    target="_blank"
-                    class="dropdown-item"
-                    href="http://ww2.inf.ufg.br/sites/default/files/projeto-pedagogico-es.pdf"
-                    >PCC 2009</a
-                  >
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                O Curso
+                            </a>
+                            <div class="dropdown-menu bg-azul-inf" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="dadosCurso" href="#DadosCurso">Dados do curso</a>
+                                <a class="dropdown-item" id="objetivo" href="#Objetivo">Objetivo</a>
+                                <a class="dropdown-item" id="perfilPro" href="#PerfilPro">Perfil profissional</a>
+                                <a class="dropdown-item" id="matrizCur" href="#MatrizCur">Matriz curricular</a>
+                                <a class="dropdown-item" id="mapaFer" href="#MapaFer">Mapa de ferramentas</a>
+                                <a class="dropdown-item" id="estagio" href="#Estagio">Estágio não obrigatório</a>
+                                <div class="dropdown-divider"></div>
+                                <a target="_blank" class="dropdown-item" href="http://ww2.inf.ufg.br/sites/default/files/projeto-pedagogico-es.pdf">PCC 2009</a>
 
-                  <a
-                    target="_blank"
-                    class="dropdown-item"
-                    href="http://ww2.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf"
-                    >PCC 2017</a
-                  >
+                                <a target="_blank" class="dropdown-item" href="http://ww2.inf.ufg.br/sites/default/files/uploads/es/ppcESPrograd.pdf">PCC 2017</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="cur" href="#curriculo">Dicas de estudo<span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="hor" href="#horarios">Alunos<span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="newyt" href="#news"><span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
                 </div>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="dicasEs" href="#dicasEstudos"
-                  >Dicas de estudo<span class="sr-only">(current)</span></a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="hor" href="#horarios"
-                  >Alunos<span class="sr-only">(current)</span></a
-                >
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" id="newyt" href="#news"
-                  ><span class="sr-only">(current)</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            </div>
+        </nav>
     </section>
     <div class="capa my-5">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-7">
-            <h1 id="titulo">
-              Bacharelado em Engenharia de Software (BES-INF-UFG)
-            </h1>
-            <hr />
-            <p id="paraTitulo" class="slide fade-in">
-              O curso tem o objetivo de formar profissionais aptos a resolver
-              problemas complexos por meio de príncipios da Engenharia.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img class="img-capa" src="./_cdn/img/engrenagens.png" />
-          </div>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-7">
+                    <h1 id="titulo">
+                        Bacharelado em Engenharia de Software (BES-INF-UFG)
+                    </h1>
+                    <hr />
+                    <p style="text-align: justify" id="paraTitulo" class="slide fade-in">
+                        O curso tem o objetivo de formar profissionais aptos a resolver
+                        problemas complexos por meio de príncipios da Engenharia.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="img-capa" src="./_cdn/img/engrenagens.png" />
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <main>
-      <!--PARTE FELIPE-->
-      <section id="SobreCurso" class="my-5">
-        <div class="container sobre_curso my-5">
-          <div class="row mb-5">
-            <div class="img col-sm-12 col-lg-4">
-              <div class="text-center slide-in fade-in from-left">
-                <img src="./_cdn/img/logoesvert.png" alt="" />
-              </div>
+        <!--PARTE FELIPE-->
+        <section id="SobreCurso" class="my-5">
+            <div class="container sobre_curso my-5">
+                <div class="row mb-5">
+                    <div class="img col-sm-12 col-lg-4 ">
+                        <div class="text-center slide-in fade-in from-left">
+                            <img src="./_cdn/img/logoesvert.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-8 mt-3">
+                        <div class="sobre_curso_header ">
+                            <h1 style="color: #47536e" class="ES_header">
+                                Engenharia de Software INF/UFG
+                            </h1>
+                        </div>
+
+                        <div class="sobre_curso_content my-3">
+                            <p style="text-align: justify" class="mt-2 slide-in fade-in from-right">
+                                Em resposta ao contexto local, formado pela indústria de
+                                software goiana e lições aprendidas ao longo de décadas de
+                                ensino, o Instituto de Informática da Universidade Federal de
+                                Goiás cria o Curso de Engenharia de Software, talvez o
+                                primeiro do país.
+                            </p>
+                            <p style="text-align: justify" class="mt-2 slide-in fade-in from-right">
+                                Software é um dos mais fascinantes artefatos produzidos pelo
+                                homem. Há extensos horizontes acerca do que se pode fazer com
+                                software. É o instrumento que dirige e dá vida aos
+                                computadores. Está em todos os lugares como na lista de
+                                contatos de um celular, no tratamento de imagens de uma câmera
+                                digital, no controle de estoque de uma empresa, na edição de
+                                textos, no funcionamento e uso da internet.
+                            </p>
+                            <p style="text-align: justify" class="mt-2  slide-in fade-in from-right">
+                                O Curso de Engenharia de Software forma o profissional de
+                                software, o engenheiro de Software, apto a participar de e
+                                conduzir empreendimentos de softwares que sejam competitivos
+                                no mercado global. O estudante recebe formação que lhe
+                                assegura sólida carreira na valiosa indústria de software e o
+                                inicia no processo de formação de sua própria reputação como
+                                profissional.
+                            </p>
+                            <p style="text-align: justify" class="mt-2  slide-in fade-in from-right">
+                                Em todo o mundo há notório e extenso mercado para este
+                                profissional, seja empregado por empresas, ou ocupando-se em
+                                atividade empreendedora na construção de um produto inovador.
+                            </p>
+                            <p style="text-align: justify" class="mt-2  slide-in fade-in from-right">
+                                O egresso do curso é capaz de produzir modelos abstratos
+                                correspondentes a software e realizá-los por meio de código
+                                funcionando. Dito de outra forma: é capaz de especificar
+                                software; projetar (design) software (inclui arquitetura de
+                                software); construir (programar) software com qualidade;
+                                realizar atividades de manutenção de software, além de
+                                trabalhar em equipe, comunicar e escrever bem. Com este
+                                perfil, o profissional poderá atuar como responsável por
+                                empreendimentos de software e participar ativamente destes,
+                                qualquer que seja o software, qualquer que seja o domínio.
+                            </p>
+                            <p style="text-align: justify" class="mt-2 slide-in fade-in from-right">
+                                Este curso forma o profissional que usa computadores, por meio
+                                da construção de software, para satisfazer necessidades de
+                                empresas e pessoas. Se o software exigido for grande e
+                                complexo, então este é um problema para o egresso deste curso.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="col-sm-12 col-md-8 mt-3">
-              <div class="sobre_curso_header">
-                <h1 class="ES_header text-primary">
-                  Engenharia de Software INF/UFG
-                </h1>
-              </div>
+        <section id="Coord" class="coordenacao">
+            <div class="container">
+                <div>
+                    <h1>Coordenação</h1>
+                    <hr />
+                </div>
 
-              <div class="sobre_curso_content my-3">
-                <p class="mt-2 slide-in fade-in from-right">
-                  Em resposta ao contexto local, formado pela indústria de
-                  software goiana e lições aprendidas ao longo de décadas de
-                  ensino, o Instituto de Informática da Universidade Federal de
-                  Goiás cria o Curso de Engenharia de Software, talvez o
-                  primeiro do país.
-                </p>
-                <p class="mt-2 slide-in fade-in from-right">
-                  Software é um dos mais fascinantes artefatos produzidos pelo
-                  homem. Há extensos horizontes acerca do que se pode fazer com
-                  software. É o instrumento que dirige e dá vida aos
-                  computadores. Está em todos os lugares como na lista de
-                  contatos de um celular, no tratamento de imagens de uma câmera
-                  digital, no controle de estoque de uma empresa, na edição de
-                  textos, no funcionamento e uso da internet.
-                </p>
-                <p class="mt-2 slide-in fade-in from-right">
-                  O Curso de Engenharia de Software forma o profissional de
-                  software, o engenheiro de Software, apto a participar de e
-                  conduzir empreendimentos de softwares que sejam competitivos
-                  no mercado global. O estudante recebe formação que lhe
-                  assegura sólida carreira na valiosa indústria de software e o
-                  inicia no processo de formação de sua própria reputação como
-                  profissional.
-                </p>
-                <p class="mt-2 slide-in fade-in from-right">
-                  Em todo o mundo há notório e extenso mercado para este
-                  profissional, seja empregado por empresas, ou ocupando-se em
-                  atividade empreendedora na construção de um produto inovador.
-                </p>
-                <p class="mt-2 slide-in fade-in from-right">
-                  O egresso do curso é capaz de produzir modelos abstratos
-                  correspondentes a software e realizá-los por meio de código
-                  funcionando. Dito de outra forma: é capaz de especificar
-                  software; projetar (design) software (inclui arquitetura de
-                  software); construir (programar) software com qualidade;
-                  realizar atividades de manutenção de software, além de
-                  trabalhar em equipe, comunicar e escrever bem. Com este
-                  perfil, o profissional poderá atuar como responsável por
-                  empreendimentos de software e participar ativamente destes,
-                  qualquer que seja o software, qualquer que seja o domínio.
-                </p>
-                <p class="mt-2 slide-in fade-in from-right">
-                  Este curso forma o profissional que usa computadores, por meio
-                  da construção de software, para satisfazer necessidades de
-                  empresas e pessoas. Se o software exigido for grande e
-                  complexo, então este é um problema para o egresso deste curso.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="Coord" class="cordenacao">
-        <div class="container">
-          <div>
-            <h1>Coordenação</h1>
-            <hr />
-          </div>
-
-          <div class="row">
-            <div
-              class="col-md-5 d-flex align-content-center flex-wrap slide-in fade-in from-left"
-              style="padding: 30px;"
-            >
-              <img
-                src="./_cdn/img/time-coordenacao.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div class="col-md-7">
-              Coordenação
-              <h5 class="card-title">Renata Dutra Braga</h5>
-              <p class="card-text">
-                Titulação:<br />
-                Doutora em Ciências da Saúde<br />
-                Local: Universidade Federal de Goiás, Goiânia, Brasil<br />
-                Ano: 2018<br />
-                Mestra em Ciências da Saúde<br />
-                Local: Universidade Federal de Goiás, Goiânia, Brasil<br />
-                Ano: 2014
-              </p>
-              <hr />
-
-              Vice-Coordenação
-              <h5 class="card-title">Leonardo Antônio Alves</h5>
-              <p class="card-text">
-                Titulação<br />
-                Mestre em Engenharia Elétrica e de Computação<br />
-                Local: Universidade Federal de Goiás, Goiânia, Brasil<br />
-                Ano: 2010
-              </p>
-              <hr />
-
-              Coordenação da Fábrica de Software
-              <h5 class="card-title">Juliano Lopes de Oliveira</h5>
-              <p class="card-text">
-                Titulação<br />
-                Doutor em Ciência da Computação<br />
-                Local: Universidade Estadual de Campinas, UNICAMP, Campinas,
-                Brasil<br />
-                Ano: 1997
-              </p>
-              <hr />
-
-              Coordenação De Estágio
-              <h5 class="card-title">Cássio Leonardo Rodrigues</h5>
-              <p class="card-text">
-                Titulação<br />
-                Doutor em Ciência da Computação<br />
-                Local: Universidade Federal de Campina Grande, Brasil<br />
-                Ano: 2010
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--PARTE IGOR-->
-
-      <!-- =========  Dados do Curso ===========  -->
-      <section id="DadosCurso" class="features">
-        <div class="container">
-          <div class="section-title slide-in fade-in">
-            <h2>Dados do Curso</h2>
-            <p class="slide-in fade-in">
-              O curso de engenharia de software da UFG visa formar profissionais
-              para o emergente mercado de software e Tecnologia da informação
-              (TI). Aqui você encontra informações sobre o curso, sobre a
-              profissão, sobre o mercado de trabalho e muitas outras
-              informações.
-            </p>
-          </div>
-
-          <div class="row no-gutters">
-            <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
-              <div class="content d-flex flex-column justify-content-center">
                 <div class="row">
-                  <div
-                    class="col-md-6 icon-box slide-in fade-in"
-                    data-aos="fade-up"
-                  >
-                    <i class="bx bx-receipt"></i>
-                    <h4>Engenharia de requisitos</h4>
-                    <p>
-                      A engenharia de requisitos é um processo que engloba todas
-                      as atividades que contribuem para a produção de um
-                      documento de requisitos e sua manutenção ao longo do
-                      tempo.
+
+                    <div class="col-md-5 d-flex align-content-center flex-wrap slide-in fade-in from-left" style="padding: 30px;">
+                        <img src="./_cdn/img/time-coordenacao.svg" class="img-fluid" alt="" />
+                    </div>
+
+                    <div class="col-md-7">
+                        Coordenação
+                        <h5 class="card-title">Renata Dutra Braga</h5>
+                        <p class="card-text">
+                            Contato:
+                            coord-es@inf.ufg.br<br />
+                            <span><img style="max-width: 40px; margin-top: 5px" src="_cdn/img/logo-lattes.png">&nbsp;</span>
+                            <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4211396E8">Currículo Lattes</a>
+                        </p>
+                        <hr>
+
+                        Vice-Coordenação
+                        <h5 class="card-title">Leonardo Antônio Alves</h5>
+                        <p class="card-text">
+                            Contato:
+                            leonardo@inf.ufg.br<br />
+                            <span><img style="max-width: 40px; margin-top: 5px" src="_cdn/img/logo-lattes.png">&nbsp;</span>
+                            <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4766411D8">Currículo Lattes</a>
+                        </p>
+                        <hr>
+
+
+                        Coordenação da Fábrica de Software
+                        <h5 class="card-title">Juliano Lopes de Oliveira</h5>
+                        <p class="card-text">
+                            Contato:
+                            juliano@inf.ufg.brr<br />
+                            <span><img style="max-width: 40px; margin-top: 5px" src="_cdn/img/logo-lattes.png">&nbsp;</span>
+                            <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4728742P0">Currículo Lattes</a>
+                        </p>
+                        <hr>
+
+                        Coordenação De Estágio
+                        <h5 class="card-title">Cássio Leonardo Rodrigues</h5>
+                        <p class="card-text">
+                            Contato:
+                            cassio@inf.ufg.br<br />
+                            <span><img style="max-width: 40px; margin-top: 5px" src="_cdn/img/logo-lattes.png">&nbsp;</span>
+                            <a target="_blank" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4768240A8">Currículo Lattes</a>
+                        </p>
+
+                        Secretário acadêmico
+                        <h5 class="card-title">Raphael Rezende Teixeira</h5>
+                        <p class="card-text">
+                            Contato:
+                            raphael@inf.ufg.br<br />
+                            <!--<span><img style="max-width: 40px; margin-top: 5px" src="_cdn/img/logo-lattes.png">&nbsp;</span>
+                            <a target="_blank" href="#">Currículo Lattes</a>-->
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="row-horario-membros" class="row">
+                    <div class="col-md-6">
+                        <h1>Horário de atendimento presencial na coordenação:</h1>
+                        <ul class="slide-in fade-in">
+                            <li>Segunda-feira: 17h00 às 18h40</li>
+                            <li>Quarta-feira: 17h00 às 19h00</li>
+                            <li>Email: coord-es@inf.ufg.br</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Membros do Núcleo Docente Estruturante de ES:</h1>
+                        <ul>
+                            <li>Fábio Nogueira de Lucena (Presidente)</li>
+                            <li>Cássio Leonardo Rodrigues</li>
+                            <li>Fernando Marques Federson</li>
+                            <li>Juliano Lopes de Oliveira</li>
+                            <li>Leonardo Antônio Alves</li>
+                            <li>Renata Dutra Braga</li>
+                            <li>Renato de Freitas Bulcão Neto</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--PARTE IGOR-->
+
+
+        <!-- =========  Dados do Curso ===========  -->
+        <section id="DadosCurso" class="features">
+            <div class="container">
+                <div class="section-title slide-in fade-in">
+                    <h2>Dados do Curso</h2>
+                    <p class="slide-in fade-in">
+                        O curso de engenharia de software da UFG visa formar profissionais
+                        para o emergente mercado de software e Tecnologia da informação
+                        (TI). Aqui você encontra informações sobre o curso, sobre a
+                        profissão, sobre o mercado de trabalho e muitas outras
+                        informações.
                     </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box slide-in fade-in"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                  >
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Planejamento</h4>
-                    <p>
-                      O planejamento de software é uma tarefa importante e
-                      inclui: Identificar tarefas e alocá-las aos membros da
-                      equipe Antecipar problemas e preparar soluções
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box slide-in fade-in"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <i class="bx bx-images"></i>
-                    <h4>Arquitetura</h4>
-                    <p>
-                      A arquitetura de software de um sistema consiste na
-                      definição dos componentes de software, suas propriedades
-                      externas, e seus relacionamentos com outros softwares. O
-                      termo também se refere à documentação da arquitetura de
-                      software do sistema.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box slide-in fade-in"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                  >
-                    <i class="bx bx-shield"></i>
-                    <h4>Testes</h4>
-                    <p>
-                      Teste de Software é um processo que faz parte do
-                      #desenvolvimento de software, e tem como principal
-                      objetivo revelar falhas/bugs para que sejam corrigidas até
-                      que o produto final atinja a qualidade desejada /
-                      acordada.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box slide-in fade-in"
-                    data-aos="fade-up"
-                    data-aos-delay="400"
-                  >
-                    <i class="bx bx-atom"></i>
-                    <h4>Implementação</h4>
-                    <p>
-                      A fase de desenvolvimento envolve a implementação dos
-                      planos do projeto. Os desenvolvedores entendem os
-                      requisitos do projeto e escrevem o código correspondente
-                      para implementar os recursos necessários.
-                    </p>
-                  </div>
-                  <div
-                    class="col-md-6 icon-box slide-in fade-in"
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                  >
-                    <i class="bx bx-id-card"></i>
-                    <h4>Manutenção</h4>
-                    <p>
-                      Em engenharia de software, manutenção de software é o
-                      processo de melhoria e otimização de um software já
-                      desenvolvido, como também reparo de defeitos.
-                    </p>
-                  </div>
                 </div>
-              </div>
-            </div>
-            <div
-              class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2"
-              style="padding: 60px;"
-            >
-              <img
-                src="./_cdn/img/img-dados-curso.svg"
-                class="img-fluid slide-in fade-in from-right"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <!-- ======= Section Dados do curso ======= -->
-
-      <!-- Fim Section Dados do curso -->
-
-      <!-- ======= Section Obejtivos do curso ======= -->
-      <section id="Objetivo" class="objetivos">
-        <div class="container">
-          <div class="row content">
-            <div
-              class="slide-in fade-in from-left col-md-4 d-flex align-content-center flex-wrap"
-              style="padding: 30px;"
-            >
-              <img
-                src="./_cdn/img/img-objetivos.svg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-md-8 pt-4 slide-in fade-in from-right">
-              <h3>Objetivos do BES-UFG</h3>
-              <h4>O BES tem como objetivo:</h4>
-              <p class="font-italic">
-                Formar profissionais aptos a contribuir efetivamente com a
-                produção de softwares de qualidade seguindo princípios éticos e
-                postura profissional.<br />
-              </p>
-              <h5>Objetivos específicos:</h5>
-              <ul>
-                <li>
-                  <i class="icofont-check"></i> Reconhecer e valorizar o
-                  respeito à diversidade. Conforme se lê na Constituição Federal
-                  em seu Art. 3.º, inciso IV: “promover o bem de todos, sem
-                  preconceitos de origem, raça, sexo, cor, idade e quaisquer
-                  outras formas de discriminação”.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Promover relações étnico-raciais
-                  respeitosas, assim como a socialização da história da formação
-                  dos brasileiros.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Ampliar a compreensão acerca de
-                  questões ambientais e, ao mesmo tempo, valorizar projetos
-                  sustentáveis.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Contribuir com a demanda da
-                  sociedade por softwares de qualidade.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Conceber e desenvolver produtos
-                  inovadores.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Promover a engenharia de
-                  software na indústria de software regional.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Viabilizar atividade econômica
-                  de alto valor (produção de software).
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Criar alternativa econômica para
-                  o Estado de Goiás.
-                </li>
-                <li>
-                  <i class="icofont-check"></i> Fortalecer a indústria de
-                  software goiana.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Fim Section Obejtivos do curso -->
-
-      <!-- ======= Section Perfil profissional ======= -->
-      <section id="PerfilPro" class="perfil-profissional">
-        <div class="container">
-          <div class="row content">
-            <div
-              class="col-md-4 d-flex align-content-center flex-wrap slide-in fade-in from-left"
-              style="padding: 30px;"
-            >
-              <img src="./_cdn/img/perfil.svg" class="img-fluid" alt="" />
-            </div>
-            <div class="col-md-8 pt-4 slide-in fade-in">
-              <h3>Perfil Profissional</h3>
-              <p class="font-italic slide-in fade-in from-right">
-                O engenheiro de software deve ser capaz de:
-              </p>
-              <ul>
-                <li class="slide-in fade-in from-right">
-                  <i class="icofont-check"></i> Raciocínio lógico.
-                </li>
-                <li class="slide-in fade-in from-right">
-                  <i class="icofont-check"></i> Raciocínio matemático.
-                </li>
-                <li class="slide-in fade-in from-right">
-                  <i class="icofont-check"></i> Capacidade de atualizar-se
-                  continuamente.
-                </li>
-                <li class="slide-in fade-in from-right">
-                  <i class="icofont-check"></i> Trabalhar em equipe e visão
-                  holística do mundo.
-                </li>
-                <li class="slide-in fade-in from-right">
-                  <i class="icofont-check"></i> Organização e persistência.
-                </li>
-              </ul>
-              <p class="slide-in fade-in from-right">
-                O Engenheiro de Software atua no projeto, desenvolvimento,
-                implantação e evolução de software complexo, corretos,
-                disponíveis, seguros, tolerantes a falhas e com usabilidade e
-                acessibilidade. Em sua atuação, ele desenha, especifica,
-                programa e experimenta soluções que atendam às necessidades do
-                mercado, da sociedade, das organizações e dos indivíduos, de
-                acordo com suas capacidade e limitações, considerando os
-                impactos emocionais e sociais.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Fim Section Perfil profissional -->
-
-      <section id="MatrizCur" class="bg-curriculo">
-        <div class="container">
-          <section class="curriculo" id="curriculo">
-            <div class="container curriculo-container">
-              <div class="cabecalho-curriculo-horario">
-                <h1>Grade curricular</h1>
-                <hr />
-              </div>
-              <div class="tabela-horarios slide-in fade-in">
-                <table class="table table-striped table-hover table-bordered">
-                  <thead class="thead-dark"></thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1º Periodo</th>
-                      <td>Calculo 1A</td>
-                      <td>Introdução a Programação</td>
-                      <td>Computação e Sociedade</td>
-                      <td>Fundamentos da Matematica para computação</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2º Periodo</th>
-                      <td>Arquitetura de computadores</td>
-                      <td>AED1</td>
-                      <td>Probabilidade e Estatistica A</td>
-                      <td>Algebra Linear</td>
-                      <td>Logica Matematica</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3º Periodo</th>
-                      <td>POO</td>
-                      <td>AED2</td>
-                      <td>Optativa 1</td>
-                      <td>Linguagens e Paradigmas de Programação</td>
-                      <td>Enhenharia de Software</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4º Periodo</th>
-                      <td>Análise e Projeto de Algoritimos</td>
-                      <td>Interação Humano-Comuputador</td>
-                      <td>Optativa 2</td>
-                      <td>Banco de Dados</td>
-                      <td>Projeto de Software</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">5º Periodo</th>
-                      <td>Construção de Software</td>
-                      <td>Modalegem de Software</td>
-                      <td>Processos de Software</td>
-                      <td>Engenharia de Sistemas</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">6º Periodo</th>
-                      <td>Design de Software</td>
-                      <td>Domínios de Software</td>
-                      <td>Processos de Qualidade de Software</td>
-                      <td>Gerência de Projeto de Software</td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">7º Periodo</th>
-                      <td>Software Concorrente e Distribuído</td>
-                      <td>Experiência do Usuário de Software</td>
-                      <td>Arquitetura de Software</td>
-                      <td>Requisitos de Software</td>
-                      <td>Governança e Gestão de Serviços de Software</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">8º Periodo</th>
-                      <td>Software para Sistemas Ubíquos</td>
-                      <td>Software para Persistência de Dados</td>
-                      <td>Padrões de Arquitetura de Software</td>
-                      <td>Teste de Software</td>
-                      <td>Optativa 3</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">9º Periodo</th>
-                      <td>
-                        Prátia em Engenharia de Software (320 horas)
-                        <strong>100%</strong>
-                      </td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div
-                class="img-curriculo d-flex justify-content-center slide-in fade-in from-right"
-              >
-                <img class="img-fluid" src="./_cdn/img/NucleoBasico.jpeg" />
-              </div>
-              <div
-                class="img-curriculo d-flex justify-content-center slide-in fade-in from-left"
-              >
-                <img class="img-fluid" src="./_cdn/img/optativas.jpeg" />
-              </div>
-            </div>
-          </section>
-
-          <section class="horario" id="horarios">
-            <div class="cabecalho-curriculo-horario">
-              <h1>Horários:</h1>
-              <hr />
-            </div>
-            <div class="tabela-horarios slide-in fade-in">
-              <table class="table table-striped table-hover table-bordered">
-                <thead class="thead-dark">
-                  <tr>
-                    <th scope="col">horário</th>
-                    <th scope="col">Segunda</th>
-                    <th scope="col">Terça</th>
-                    <th scope="col">Quarta</th>
-                    <th scope="col">Quinta</th>
-                    <th scope="col">Sexta</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">18h50</th>
-                    <td>Calculo 1A</td>
-                    <td>Introdução a Programação</td>
-                    <td>Calculo 1A</td>
-                    <td>Introdução a Programação</td>
-                    <td>Calculo 1A</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">19h40</th>
-                    <td>Calculo 1A</td>
-                    <td>Introdução a Programação</td>
-                    <td>Calculo 1A</td>
-                    <td>Introdução a Programação</td>
-                    <td>Calculo 1A</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">20h30</th>
-                    <td>Fundamentos da matemática para computação</td>
-                    <td>Introdução a Programação</td>
-                    <td>Fundamentos da matemática para computação</td>
-                    <td>Introdução a Programação</td>
-                    <td>Computação e sociedade</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">21h10</th>
-                    <td>Fundamentos da matemática para computação</td>
-                    <td>Introdução a Programação</td>
-                    <td>Fundamentos da matemática para computação</td>
-                    <td>Introdução a Programação</td>
-                    <td>Computação e sociedade</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-        </div>
-      </section>
-
-      <section id="MapaFer" class="ferramentas">
-        <div class="container">
-          <div class="row content">
-            <div class="col-md-4 d-flex align-content-center flex-wrap">
-              <img
-                src="./_cdn/img/ferramentas.svg"
-                class="img-fluid slide-in fade-in from-left"
-                alt=""
-              />
-            </div>
-            <div class="col-md-8 pt-4 slide-in fade-in from-right">
-              <h3>
-                Mapa de ferramentas, tecnologias e abordagens promovidas ao
-                longo do BES
-              </h3>
-              <p class="font-italic">
-                O bacharel irá conhecer no mínimo:
-              </p>
-
-              <div class="row">
-                <div class="col-md-4">
-                  <p class="">
-                    Sistemas Operacionais:
-                  </p>
-                  <ul>
-                    <li><i class="icofont-check"></i> Ubuntu</li>
-                    <li><i class="icofont-check"></i> Windows</li>
-                    <li><i class="icofont-check"></i> IOS/Android</li>
-                  </ul>
+                <div class="row no-gutters">
+                    <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
+                        <div class="content d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div class="col-md-6 icon-box slide-in fade-in " data-aos="fade-up">
+                                    <i class="bx bx-receipt"></i>
+                                    <h4>Engenharia de requisitos</h4>
+                                    <p>
+                                        A engenharia de requisitos é um processo que engloba todas
+                                        as atividades que contribuem para a produção de um
+                                        documento de requisitos e sua manutenção ao longo do
+                                        tempo.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box slide-in fade-in" data-aos="fade-up" data-aos-delay="100">
+                                    <i class="bx bx-cube-alt"></i>
+                                    <h4>Planejamento</h4>
+                                    <p>
+                                        O planejamento de software é uma tarefa importante e
+                                        inclui: Identificar tarefas e alocá-las aos membros da
+                                        equipe Antecipar problemas e preparar soluções
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box slide-in fade-in" data-aos="fade-up" data-aos-delay="200">
+                                    <i class="bx bx-images"></i>
+                                    <h4>Arquitetura</h4>
+                                    <p>
+                                        A arquitetura de software de um sistema consiste na
+                                        definição dos componentes de software, suas propriedades
+                                        externas, e seus relacionamentos com outros softwares. O
+                                        termo também se refere à documentação da arquitetura de
+                                        software do sistema.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box slide-in fade-in" data-aos="fade-up" data-aos-delay="300">
+                                    <i class="bx bx-shield"></i>
+                                    <h4>Testes</h4>
+                                    <p>
+                                        Teste de Software é um processo que faz parte do
+                                        #desenvolvimento de software, e tem como principal
+                                        objetivo revelar falhas/bugs para que sejam corrigidas até
+                                        que o produto final atinja a qualidade desejada /
+                                        acordada.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box slide-in fade-in " data-aos="fade-up" data-aos-delay="400">
+                                    <i class="bx bx-atom"></i>
+                                    <h4>Implementação</h4>
+                                    <p>
+                                        A fase de desenvolvimento envolve a implementação dos
+                                        planos do projeto. Os desenvolvedores entendem os
+                                        requisitos do projeto e escrevem o código correspondente
+                                        para implementar os recursos necessários.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 icon-box slide-in fade-in " data-aos="fade-up" data-aos-delay="500">
+                                    <i class="bx bx-id-card"></i>
+                                    <h4>Manutenção</h4>
+                                    <p>
+                                        Em engenharia de software, manutenção de software é o
+                                        processo de melhoria e otimização de um software já
+                                        desenvolvido, como também reparo de defeitos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2" style="padding: 60px;">
+                        <img src="./_cdn/img/img-dados-curso.svg" class="img-fluid slide-in fade-in from-right" alt="" />
+                    </div>
                 </div>
-                <div class="col-md-4">
-                  <p class="">
-                    Linguagens:
-                  </p>
-                  <ul>
-                    <li><i class="icofont-check"></i> Java</li>
-                    <li><i class="icofont-check"></i> C/C++/C#</li>
-                    <li><i class="icofont-check"></i> HTML5/CSS3/SCSS/JS</li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <p class="">
-                    IDE:
-                  </p>
-                  <ul>
-                    <li><i class="icofont-check"></i> Eclipse</li>
-                    <li><i class="icofont-check"></i> Visual Studio</li>
-                    <li><i class="icofont-check"></i> NetBeans</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-4">
-                  <p class="">
-                    Nuvens:
-                  </p>
-                  <ul>
-                    <li><i class="icofont-check"></i> Azure</li>
-                    <li><i class="icofont-check"></i> Google cloud</li>
-                    <li><i class="icofont-check"></i> AWS</li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <p class="">
-                    Build:
-                  </p>
-                  <ul>
-                    <li><i class="icofont-check"></i> Maven</li>
-                    <li><i class="icofont-check"></i> Yarn</li>
-                    <li><i class="icofont-check"></i> NPM</li>
-                  </ul>
-                </div>
-                <div class="col-md-4">
-                  <p class="">
-                    Interfaces Gráficas:
-                  </p>
-                  <ul>
-                    <li><i class="icofont-check"></i> React Native</li>
-                    <li><i class="icofont-check"></i> Eletron</li>
-                    <li><i class="icofont-check"></i> JavaFx</li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- ======= Section Estagio======= -->
-      <section id="Estagio" class="estagio">
-        <div class="container">
-          <div class="row content">
-            <div class="col-md-8 pt-4 slide-in fade-in from-left">
-              <h3>Estágio</h3>
-              <hr />
-              <p>
-                O estágio do BES constitui-se em um mecanismo de complementação
-                de conhecimento e aperfeiçoamento de habilidades, além de
-                oportunidade de prática em Engenharia de Software. O convívio
-                com profissionais, obrigações, hierarquias e processos onde o
-                estágio se desenvolve, resulta em oportunidade valiosa para a
-                formação profissional do egresso.<br /><br />
-                O estágio do BES não é de caráter obrigatório, ficando a
-                critério do estudante realizá-lo ou não, desde que o mesmo
-                esteja regularmente matriculado no curso. Ou seja, caracteriza
-                estágio curricular não obrigatório. Adicionalmente, esse estágio
-                pode ser realizado a partir do primeiro período do curso, sem
-                exceção.<br /><br />
-                Convém observar que o estágio está restrito às empresas
-                devidamente conveniadas com a UFG ou que se utilizam de agentes
-                de integração conveniados. Adicionalmente, dois outros papéis
-                são obrigatórios no estágio: (a) supervisor (no local do
-                estágio) e (b) orientador (professor do curso).<br /><br />
-                Durante o estágio, que não pode ultrapassar 24 meses em mesmo
-                local, o estudante deverá apresentar o Termo de Compromisso, o
-                Plano de Estágio, além da frequência e dos relatórios
-                semestrais.<br /><br />
-                Os documentos citados acima, bem como outros detalhes do
-                estágio, em conformidade com a Lei 1538/2017, são definidos pelo
-                Regulamento de Estágio de Curso do Bacharelado em Engenharia de
-                Software. Mais informações, acesse: <br />
-                <a target="_blank" href="https://www.inf.ufg.br/estagio"
-                  >Estagio Bacharelado em Engenharia de Software</a
-                >
-              </p>
-            </div>
-            <div
-              class="col-md-4 d-flex align-content-center flex-wrap"
-              style="padding: 30px;"
-            >
-              <img
-                src="./_cdn/img/img-estagio.svg"
-                class="img-fluid slide-in fade-in from-right"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Fim Section Estagio -->
+        <!-- ======= Section Dados do curso ======= -->
 
-      <!-- REPORTAGENS
+        <!-- Fim Section Dados do curso -->
+
+        <!-- ======= Section Obejtivos do curso ======= -->
+        <section id="Objetivo" class="objetivos">
+            <div class="container">
+                <div class="row content">
+                    <div class=" slide-in fade-in from-left col-md-4 d-flex align-content-center flex-wrap" style="padding: 30px;">
+                        <img src="./_cdn/img/img-objetivos.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md-8 pt-4 slide-in fade-in from-right">
+                        <h3>Objetivos do BES-UFG</h3>
+                        <h4>O BES tem como objetivo:</h4>
+                        <p class="font-italic">
+                            Formar profissionais aptos a contribuir efetivamente com a
+                            produção de softwares de qualidade seguindo princípios éticos e
+                            postura profissional.<br />
+                        </p>
+                        <h5>Objetivos específicos:</h5>
+                        <ul>
+                            <li>
+                                <i class="icofont-check"></i> Reconhecer e valorizar o
+                                respeito à diversidade. Conforme se lê na Constituição Federal
+                                em seu Art. 3.º, inciso IV: “promover o bem de todos, sem
+                                preconceitos de origem, raça, sexo, cor, idade e quaisquer
+                                outras formas de discriminação”.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Promover relações étnico-raciais
+                                respeitosas, assim como a socialização da história da formação
+                                dos brasileiros.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Ampliar a compreensão acerca de
+                                questões ambientais e, ao mesmo tempo, valorizar projetos
+                                sustentáveis.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Contribuir com a demanda da
+                                sociedade por softwares de qualidade.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Conceber e desenvolver produtos
+                                inovadores.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Promover a engenharia de
+                                software na indústria de software regional.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Viabilizar atividade econômica
+                                de alto valor (produção de software).
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Criar alternativa econômica para
+                                o Estado de Goiás.
+                            </li>
+                            <li>
+                                <i class="icofont-check"></i> Fortalecer a indústria de
+                                software goiana.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Section Obejtivos do curso -->
+
+        <!-- ======= Section Perfil profissional ======= -->
+        <section id="PerfilPro" class="perfil-profissional">
+            <div class="container">
+                <div class="row content">
+                    <div class="col-md-4 d-flex align-content-center flex-wrap slide-in fade-in from-left" style="padding: 30px;">
+                        <img src="./_cdn/img/perfil.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-md-8 pt-4 slide-in fade-in ">
+                        <h3>Perfil Profissional</h3>
+                        <p class="font-italic slide-in fade-in from-right">
+                            O engenheiro de software deve ser capaz de:
+                        </p>
+                        <ul>
+                            <li class="slide-in fade-in from-right">
+                                <i class="icofont-check"></i> Raciocínio lógico.
+                            </li>
+                            <li class="slide-in fade-in from-right">
+                                <i class="icofont-check"></i> Raciocínio matemático.
+                            </li>
+                            <li class="slide-in fade-in from-right">
+                                <i class="icofont-check"></i> Capacidade de atualizar-se
+                                continuamente.
+                            </li>
+                            <li class="slide-in fade-in from-right">
+                                <i class="icofont-check"></i> Trabalhar em equipe e visão
+                                holística do mundo.
+                            </li>
+                            <li class="slide-in fade-in from-right">
+                                <i class="icofont-check"></i> Organização e persistência.
+                            </li>
+                        </ul>
+                        <p class="slide-in fade-in from-right">
+                            O Engenheiro de Software atua no projeto, desenvolvimento,
+                            implantação e evolução de software complexo, corretos,
+                            disponíveis, seguros, tolerantes a falhas e com usabilidade e
+                            acessibilidade. Em sua atuação, ele desenha, especifica,
+                            programa e experimenta soluções que atendam às necessidades do
+                            mercado, da sociedade, das organizações e dos indivíduos, de
+                            acordo com suas capacidade e limitações, considerando os
+                            impactos emocionais e sociais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Section Perfil profissional -->
+
+        <section id="MatrizCur" class="bg-curriculo">
+            <div class="container">
+                <section class="curriculo" id="curriculo">
+                    <div class="container curriculo-container">
+                        <div class="cabecalho-curriculo-horario ">
+                            <h1>Grade curricular</h1>
+                            <hr />
+                        </div>
+                        <div class="tabela-horarios slide-in fade-in">
+                            <table class="table table-striped table-hover table-bordered">
+                                <thead class="thead-dark">Formação básica:</thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1º Periodo</th>
+                                        <td>Calculo 1A</td>
+                                        <td>Introdução a Programação</td>
+                                        <td>Computação e Sociedade</td>
+                                        <td>Fundamentos da Matematica para computação</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2º Periodo</th>
+                                        <td>Arquitetura de computadores</td>
+                                        <td>AED1</td>
+                                        <td>Probabilidade e Estatistica A</td>
+                                        <td>Algebra Linear</td>
+                                        <td>Logica Matematica</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3º Periodo</th>
+                                        <td>POO</td>
+                                        <td>AED2</td>
+                                        <td>Optativa 1</td>
+                                        <td>Linguagens e Paradigmas de Programação</td>
+                                        <td>Enhenharia de Software</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4º Periodo</th>
+                                        <td>Análise e Projeto de Algoritimos</td>
+                                        <td>Interação Humano-Comuputador</td>
+                                        <td>Optativa 2</td>
+                                        <td>Banco de Dados</td>
+                                        <td>Projeto de Software</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-striped table-hover table-bordered">
+                                <thead class="thead-dark">Formação específica:</thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">5º Periodo</th>
+                                        <td>Construção de Software</td>
+                                        <td>Modalegem de Software</td>
+                                        <td>Processos de Software</td>
+                                        <td>Engenharia de Sistemas</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6º Periodo</th>
+                                        <td>Design de Software</td>
+                                        <td>Domínios de Software</td>
+                                        <td>Processos de Qualidade de Software</td>
+                                        <td>Gerência de Projeto de Software</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7º Periodo</th>
+                                        <td>Software Concorrente e Distribuído</td>
+                                        <td>Experiência do Usuário de Software</td>
+                                        <td>Arquitetura de Software</td>
+                                        <td>Requisitos de Software</td>
+                                        <td>Governança e Gestão de Serviços de Software</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8º Periodo</th>
+                                        <td>Software para Sistemas Ubíquos</td>
+                                        <td>Software para Persistência de Dados</td>
+                                        <td>Padrões de Arquitetura de Software</td>
+                                        <td>Teste de Software</td>
+                                        <td>Optativa 3</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">9º Periodo</th>
+                                        <td>
+                                            Prátia em Engenharia de Software (320 horas)
+                                            <strong>100%</strong>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="img-curriculo d-flex justify-content-center slide-in fade-in from-right">
+                            <img class="img-fluid" src="./_cdn/img/NucleoBasico.jpeg" />
+                        </div>
+                        <div class="img-curriculo d-flex justify-content-center slide-in fade-in from-left">
+                            <img class="img-fluid" src="./_cdn/img/optativas.jpeg" />
+                        </div>
+                    </div>
+                </section>
+
+                <section class="horario" id="horarios">
+                    <div class="cabecalho-curriculo-horario ">
+                        <h1>Horários:</h1>
+                        <hr />
+                    </div>
+                    <div class="tabela-horarios slide-in fade-in">
+                        <table class="table table-striped table-hover table-bordered">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">horário</th>
+                                    <th scope="col">Segunda</th>
+                                    <th scope="col">Terça</th>
+                                    <th scope="col">Quarta</th>
+                                    <th scope="col">Quinta</th>
+                                    <th scope="col">Sexta</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">18h50</th>
+                                    <td>Calculo 1A</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Calculo 1A</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Calculo 1A</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">19h40</th>
+                                    <td>Calculo 1A</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Calculo 1A</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Calculo 1A</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">20h30</th>
+                                    <td>Fundamentos da matemática para computação</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Fundamentos da matemática para computação</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Computação e sociedade</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">21h10</th>
+                                    <td>Fundamentos da matemática para computação</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Fundamentos da matemática para computação</td>
+                                    <td>Introdução a Programação</td>
+                                    <td>Computação e sociedade</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="MapaFer" class="ferramentas">
+            <div class="container">
+                <div class="row content">
+                    <div class="col-md-4 d-flex align-content-center flex-wrap">
+                        <img src="./_cdn/img/ferramentas.svg" class="img-fluid slide-in fade-in from-left" alt="" />
+                    </div>
+                    <div class="col-md-8 pt-4 slide-in fade-in from-right">
+                        <h3>
+                            Mapa de ferramentas, tecnologias e abordagens promovidas ao
+                            longo do BES
+                        </h3>
+                        <p class="font-italic">
+                            O bacharel irá conhecer no mínimo:
+                            <a target="_blank" href="http://ww2.inf.ufg.br/~fabio/terreno-ferramentas.pdf">PDF com todas as ferramentas</a>
+                        </p>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p class="">
+                                    Sistemas Operacionais:
+                                </p>
+                                <ul>
+                                    <li><i class="icofont-check"></i> Ubuntu</li>
+                                    <li><i class="icofont-check"></i> Windows</li>
+                                    <li><i class="icofont-check"></i> IOS/Android</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="">
+                                    Linguagens:
+                                </p>
+                                <ul>
+                                    <li><i class="icofont-check"></i> Java</li>
+                                    <li><i class="icofont-check"></i> C/C++/C#</li>
+                                    <li><i class="icofont-check"></i> HTML5/CSS3/SCSS/JS</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="">
+                                    IDE:
+                                </p>
+                                <ul>
+                                    <li><i class="icofont-check"></i> Eclipse</li>
+                                    <li><i class="icofont-check"></i> Visual Studio</li>
+                                    <li><i class="icofont-check"></i> NetBeans</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p class="">
+                                    Nuvens:
+                                </p>
+                                <ul>
+                                    <li><i class="icofont-check"></i> Azure</li>
+                                    <li><i class="icofont-check"></i> Google cloud</li>
+                                    <li><i class="icofont-check"></i> AWS</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="">
+                                    Build:
+                                </p>
+                                <ul>
+                                    <li><i class="icofont-check"></i> Maven</li>
+                                    <li><i class="icofont-check"></i> Yarn</li>
+                                    <li><i class="icofont-check"></i> NPM</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="">
+                                    Interfaces Gráficas:
+                                </p>
+                                <ul>
+                                    <li><i class="icofont-check"></i> React Native</li>
+                                    <li><i class="icofont-check"></i> Eletron</li>
+                                    <li><i class="icofont-check"></i> JavaFx</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Section Estagio======= -->
+        <section id="Estagio" class="estagio">
+            <div class="container">
+                <div class="row content">
+                    <div class="col-md-8 pt-4 slide-in fade-in from-left">
+                        <h3>Estágio</h3>
+                        <hr />
+                        <p>
+                            O estágio do BES constitui-se em um mecanismo de complementação
+                            de conhecimento e aperfeiçoamento de habilidades, além de
+                            oportunidade de prática em Engenharia de Software. O convívio
+                            com profissionais, obrigações, hierarquias e processos onde o
+                            estágio se desenvolve, resulta em oportunidade valiosa para a
+                            formação profissional do egresso.<br /><br />
+                            O estágio do BES não é de caráter obrigatório, ficando a
+                            critério do estudante realizá-lo ou não, desde que o mesmo
+                            esteja regularmente matriculado no curso. Ou seja, caracteriza
+                            estágio curricular não obrigatório. Adicionalmente, esse estágio
+                            pode ser realizado a partir do primeiro período do curso, sem
+                            exceção.<br /><br />
+                            Convém observar que o estágio está restrito às empresas
+                            devidamente conveniadas com a UFG ou que se utilizam de agentes
+                            de integração conveniados. Adicionalmente, dois outros papéis
+                            são obrigatórios no estágio: (a) supervisor (no local do
+                            estágio) e (b) orientador (professor do curso).<br /><br />
+                            Durante o estágio, que não pode ultrapassar 24 meses em mesmo
+                            local, o estudante deverá apresentar o Termo de Compromisso, o
+                            Plano de Estágio, além da frequência e dos relatórios
+                            semestrais.<br /><br />
+                            Os documentos citados acima, bem como outros detalhes do
+                            estágio, em conformidade com a Lei 1538/2017, são definidos pelo
+                            Regulamento de Estágio de Curso do Bacharelado em Engenharia de
+                            Software. Mais informações, acesse: <br />
+                            <a target="_blank" href="https://www.inf.ufg.br/estagio">Estagio Bacharelado em Engenharia de Software</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex align-content-center flex-wrap" style="padding: 30px;">
+                        <img src="./_cdn/img/img-estagio.svg" class="img-fluid slide-in fade-in from-right" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Section Estagio -->
+
+        <!-- REPORTAGENS
       <section class=" youtube" id="news">
         <div class="container news">
           <div class="row">
@@ -1053,169 +978,104 @@
         </div>
       </section>
 -->
+        <section class="conquistas mb-5">
+            <div class="container">
+                <div class="row img_conquistas_header pb-5">
+                    <div class="img_header_conq mb-3 py-3 col-12 d-flex justify-content-around align-items-center">
+                        <img class="img-fluid slide-in fade-in from-left" src="./_cdn/img/Marca_UFG_cor_horizontal-04.png" alt="Logo UFG" />
+                        <img class="img-fluid slide-in fade-in" src="./_cdn/img/logo-inf.png" alt="Logo INF" />
+                        <img class="img-fluid slide-in fade-in from-right" src="./_cdn/img/logoesvert.png" alt="Logo Engenharia de Software" />
+                    </div>
 
-      <section id="dicasEstudos" class="dicasEstudo my-5 slide-in fade-in">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <header>
-                <h1>Dicas de Estudo!</h1>
-              </header>
-              <hr />
+                    <div class="col-12 mt-3 conquista_header mt-3">
+                        <header class="text-center text-white slide-in fade-in">
+                            <h1>Temos que comemorar!!</h1>
+                            <p>
+                                Você ajuda a construir a história do curso de
+                                <strong>Engenahria de Software</strong>
+                            </p>
+                        </header>
+                    </div>
+
+                    <div class="avaliacoes col-md-6 mt-5 col-lg-6 col-sm-12">
+                        <header>
+                            <h3>Nota máxima em todas as avaliações!</h3>
+                        </header>
+
+                        <div class="img_mec d-flex flex-column">
+                            <img class="my-1 slide-in fade-in from-left" src="./_cdn/img/5estrelas2015.jpg" alt="" />
+                            <img class="my-1 slide-in fade-in from-left" src="./_cdn/img/5estrelas2016ES.png" alt="" />
+                            <img class="my-1 slide-in fade-in from-left" src="./_cdn/img/ES-gui-estudante-melhores.png" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="ranking mt-5 col-md-6 col-lg-6 col-sm-12 ">
+                        <header class="slide-in fade-in">
+                            <h3>Dentre 51 cursos, somos o <strong>primeiro</strong>!</h3>
+                        </header>
+
+                        <ol>
+                            <li class="mt-5 slide-in fade-in from-right">Medicina - 782</li>
+                            <li class="mt-3 slide-in fade-in from-right">Direito - 764</li>
+                            <li class="mt-3 slide-in fade-in from-right">
+                                <a href="http://inteligenciaartificial.inf.ufg.br/" target="_blank">Inteligência Artificial</a>
+                            </li>
+                            <li class="mt-3 slide-in fade-in from-right">
+                                Engenharia Quimica - 750
+                            </li>
+                            <li class="mt-3 slide-in fade-in from-right">
+                                <a href="index.html" target="_blank">Engenharia de Software - 744
+                                    <strong>(maior do país)</strong></a>
+                            </li>
+                        </ol>
+
+                        <p class="slide-in fade-in from-right">
+                            <a href="https://beduka.com/blog/dicas/cursos/nota-de-corte-engenharia-de-software/" target="_blank">Maior nota de corte para Engenharia de Software - Sisu
+                                2020</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="col-6 text-center mb-5 slide-in fade-in from-left">
-              <img src="./_cdn/img/swebok3.jpg" height="400px" alt="" />
-            </div>
-
-            <div class="col-6 text-center mb-5 slide-in fade-in from-right">
-              <img
-                src="./_cdn/img/swecom.jpg"
-                height="400px"
-                class="swecom"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="conquistas mb-5">
-        <div class="container">
-          <div class="row img_conquistas_header pb-5">
-            <div
-              class="img_header_conq mb-3 py-3 col-12 d-flex justify-content-around align-items-center"
-            >
-              <img
-                class="img-fluid slide-in fade-in from-left"
-                src="./_cdn/img/Marca_UFG_cor_horizontal-04.png"
-                alt="Logo UFG"
-              />
-              <img
-                class="img-fluid slide-in fade-in"
-                src="./_cdn/img/logo-inf.png"
-                alt="Logo INF"
-              />
-              <img
-                class="img-fluid slide-in fade-in from-right"
-                src="./_cdn/img/logoesvert.png"
-                alt="Logo Engenharia de Software"
-              />
-            </div>
-
-            <div class="col-12 mt-3 conquista_header mt-3">
-              <header class="text-center slide-in fade-in">
-                <h1>Temos que comemorar!!</h1>
-                <p>
-                  Você ajuda a construir a história do curso de
-                  <strong>Engenahria de Software</strong>
-                </p>
-              </header>
-            </div>
-
-            <div class="avaliacoes col-md-6 mt-5 col-lg-6 col-sm-12">
-              <header>
-                <h3>Nota máxima em todas as avaliações!</h3>
-              </header>
-
-              <div class="img_mec d-flex flex-column">
-                <img
-                  class="my-1 slide-in fade-in from-left"
-                  src="./_cdn/img/5estrelas2015.jpg"
-                  alt=""
-                />
-                <img
-                  class="my-1 slide-in fade-in from-left"
-                  src="./_cdn/img/5estrelas2016ES.png"
-                  alt=""
-                />
-                <img
-                  class="my-1 slide-in fade-in from-left"
-                  src="./_cdn/img/ES-gui-estudante-melhores.png"
-                  alt=""
-                />
-              </div>
-            </div>
-
-            <div class="ranking mt-5 col-md-6 col-lg-6 col-sm-12">
-              <header class="slide-in fade-in">
-                <h3>Dentre 51 cursos, somos o <strong>primeiro</strong>!</h3>
-              </header>
-
-              <ol>
-                <li class="mt-5 slide-in fade-in from-right">Medicina - 782</li>
-                <li class="mt-3 slide-in fade-in from-right">Direito - 764</li>
-                <li class="mt-3 slide-in fade-in from-right">
-                  <a
-                    href="http://inteligenciaartificial.inf.ufg.br/"
-                    target="_blank"
-                    >Inteligência Artificial</a
-                  >
-                </li>
-                <li class="mt-3 slide-in fade-in from-right">
-                  Engenharia Quimica - 750
-                </li>
-                <li class="mt-3 slide-in fade-in from-right">
-                  <a href="index.html" target="_blank"
-                    >Engenharia de Software - 744
-                    <strong>(maior do país)</strong></a
-                  >
-                </li>
-              </ol>
-
-              <p class="slide-in fade-in from-right">
-                <a
-                  href="https://beduka.com/blog/dicas/cursos/nota-de-corte-engenharia-de-software/"
-                  target="_blank"
-                  >Maior nota de corte para Engenharia de Software - Sisu
-                  2020</a
-                >
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
 
     <!--PARTE FELIPE-->
     <footer class="footer-content pb-5" style="background-color: #0f5a7d;">
-      <div class="container">
-        <div class="row">
-          <div class="text-center col-3 mt-5">
-            <div class="imagem">
-              <a href="https://www.facebook.com/institutodeinformaticaufg">
-                <i class="fab fa-facebook fa-4x" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-3 mt-5 ">
+                    <div class="imagem">
+                        <a href="https://www.facebook.com/institutodeinformaticaufg">
+                            <i class="fab fa-facebook fa-4x" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
 
-          <div class="text-center col-3 mt-5">
-            <div class="imagem">
-              <a href="https://www.instagram.com/inf_ufg/?hl=pt-br">
-                <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
+                <div class="text-center col-3 mt-5">
+                    <div class="imagem">
+                        <a href="https://www.instagram.com/inf_ufg/?hl=pt-br">
+                            <i class="fab fa-instagram fa-4x" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
 
-          <div class="text-center col-3 mt-5">
-            <div class="imagem">
-              <a href="https://twitter.com/inf_ufg">
-                <i class="fab fa-twitter fa-4x"></i>
-              </a>
-            </div>
-          </div>
+                <div class="text-center col-3 mt-5 ">
+                    <div class="imagem">
+                        <a href="https://twitter.com/inf_ufg">
+                            <i class="fab fa-twitter fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
 
-          <div class="text-center col-3 mt-5">
-            <div class="imagem">
-              <a
-                href="https://www.linkedin.com/school/universidade-federal-de-goias/"
-              >
-                <i class="fab fa-linkedin fa-4x"></i>
-              </a>
+                <div class="text-center col-3 mt-5 ">
+                    <div class="imagem">
+                        <a href="https://www.linkedin.com/school/universidade-federal-de-goias/">
+                            <i class="fab fa-linkedin fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -1229,14 +1089,16 @@
     <!-- Fim Script Animação Letras-->
 
     <div vw class="enabled">
-      <div vw-access-button class="active"></div>
-      <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-      </div>
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
     <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
     <script>
-      new window.VLibras.Widget("https://vlibras.gov.br/app");
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+
     </script>
-  </body>
+</body>
+
 </html>

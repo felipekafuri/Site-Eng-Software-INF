@@ -120,12 +120,12 @@
 }
 
 .conquistas .img_header_conq {
-  background-color: #fff;
-  color: #0000;
+  background-color: #2cb5eb;
+  border-radius: 7px 7px 0px 0px;
+  box-shadow: 0px 10px 10px #2cb5eb;
 }
 .conquistas .img_conquistas_header {
-  background-color: #fff;
-  color: #0000;
+  background-color: #34bdf3;
   border-radius: 7px;
 }
 .conquistas .img_conquistas_header img {
@@ -133,16 +133,11 @@
   height: 100px;
 }
 
-.conquistas {
-  margin-top: 150px;
-}
 .conquistas .conquista_header header h1 {
-  color: #000000;
   font-size: 3.5em;
   font-weight: 400;
 }
 .conquistas .conquista_header header p {
-  color: #000000;
   font-size: 1.3em;
 }
 
@@ -150,7 +145,7 @@
   text-align: center;
 }
 .avaliacoes header h3 {
-  color: #000000;
+  color: white;
   font-size: 1.7em;
   font-weight: 400;
 }
@@ -167,16 +162,16 @@
   text-align: center;
 }
 .ranking header h3 {
-  color: #000000;
+  color: white;
   font-size: 1.7em;
   font-weight: 400;
 }
 .ranking ol li {
-  color: #000000;
+  color: white;
   font-size: 1.2em;
 }
 .ranking ol li a {
-  color: #000000;
+  color: white;
   text-decoration: none;
 }
 .ranking ol li a:hover {
@@ -194,13 +189,6 @@
 }
 .ranking p a:hover {
   color: #daa703;
-}
-
-.dicasEstudo {
-  margin-bottom: 100px;
-}
-.dicasEstudo .swecom {
-  border: 1px solid #c5c5c5;
 }
 
 @media (max-width: 400px) {
@@ -338,6 +326,16 @@ h1, h2, h3, h4, h5, h6 {
 
 h5 {
   color: #47536e;
+}
+
+.coordenacao > div > div > div > h1 {
+  color: #47536e;
+  font-size: 1.5em;
+}
+
+#row-horario-membros {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------
