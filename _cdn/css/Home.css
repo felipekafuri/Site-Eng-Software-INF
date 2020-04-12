@@ -240,12 +240,7 @@
   padding-bottom: 90px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -285,12 +280,7 @@ h6 {
   padding-bottom: 60px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -330,12 +320,7 @@ h6 {
   padding-bottom: 60px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -360,12 +345,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -443,8 +423,7 @@ h6 {
   }
 }
 @media (max-width: 768px) {
-  #footer .copyright,
-#footer .credits {
+  #footer .copyright, #footer .credits {
     float: none;
     text-align: center;
     padding: 5px 0;
@@ -548,12 +527,7 @@ h6 {
   padding-top: 60px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 

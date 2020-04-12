@@ -3,40 +3,40 @@
 @import url("_variables.scss");
 
 .bg-curriculo {
-  padding-bottom: 3em;
-  padding-top: 1em;
-  margin-top: -50px;
+    padding-bottom: 3em;
+    padding-top: 1em;
+    margin-top: -50px;
 }
 
 .curriculo-container {
-  margin-top: 4em;
-  padding-top: 1.7em;
-  padding-bottom: 5em;
+    margin-top: 4em;
+    padding-top: 1.7em;
+    padding-bottom: 5em;
 }
 
 .curriculo-horario {
-  padding-bottom: 1em;
-  margin-bottom: 4em;
+    padding-bottom: 1em;
+    margin-bottom: 4em;
 }
 
 .img-curriculo > img {
-  width: 50em;
+    width: 50em;
 }
 
 .tabela-horarios {
-  overflow: auto;
+    overflow: auto;
 }
 
 /* Tipografia */
 
 .cabecalho-curriculo-horario {
-  color: black;
+    color: black;
 }
 
 .cabecalho-curriculo-horario > h1 > i {
-  margin-right: 0.3em;
+    margin-right: 0.3em;
 }
 
 .cabecalho-curriculo-horario hr {
-  border-top-width: 0.2em;
+    border-top-width: 0.2em;
 }
